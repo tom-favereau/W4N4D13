@@ -1,10 +1,5 @@
 # W4N4D13 — Crackme (OCaml CIL / C)
 
-![course](https://pfst.cf2.poecdn.net/base/image/19598122b9f5616f333ad97a1ffd54ac2b16a1869f34238c376e48f8ce8483f8?pmaid=583607117)
-![lang](https://pfst.cf2.poecdn.net/base/image/f1a6939261ed3eea40f66399c5098781f18d4d72f6677965bf714a288a094a8b?pmaid=583607118)
-![platform](https://pfst.cf2.poecdn.net/base/image/bac601843643965c467dcd4f1a9892145b76c1921218afd84237ed5ffd02d5a7?pmaid=583607116)
-
-**Keywords:** OCaml CIL, C, crackme
 
 ## About
 
