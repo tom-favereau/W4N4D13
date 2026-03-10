@@ -28,7 +28,7 @@ Good luck.
 | `lib/mba.py` | MBA expression generator |
 | `lib/solvemod.py` | Modular solver used by the MBA tooling |
 | `bin/main.ml` | OCaml entry point for the passes |
-| `prog/` | Final protected binary (MSVC10, Windows x86) |
+| `prog` | Final protected binary (MSVC10, Windows x86) |
 | `W4N4D13.pdf` | Technical paper |
 
 ## Build (pipeline overview)
