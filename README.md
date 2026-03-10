@@ -14,19 +14,17 @@ W4N4D13 is a software-protection project built for the Malware/Reverse Engineeri
 
 | Path | Role |
 |---|---|
-| `W4N4D13.c` | Original C source — license verifier (pre-obfuscation) |
-| `W4N4D13.cpp` | C++ wrapper used during development |
-| `W4N4D13_final.c` | Final obfuscated C source (output of the full pipeline) |
-| `final.c` | Intermediate obfuscated C (after CIL passes, before VM generation) |
+| `W4N4D13.cpp` | source code |
+| `final.c` | code that is virtualized |
 | `generate_vm.py` | Python script that emits the bytecode VM and compiled bytecode |
 | `lib/flatten.ml` | OCaml/CIL pass — control-flow flattening |
 | `lib/opaque.ml` | OCaml/CIL pass — opaque predicates via MBA |
 | `lib/virtualize.ml` | OCaml/CIL pass — code virtualization |
-| `lib/mba.py` | MBA expression generator (linear system + permutation polynomials) |
-| `lib/solvemod.py` | Modular linear system solver over ℤ/2³²ℤ |
-| `bin/main.ml` | OCaml entry point for the CIL obfuscation tool |
-| `prog` | Final protected binary (Windows PE x86) |
-| `W4N4D13.pdf` | Accompanying technical paper |
+| `lib/mba.py` | MBA expression generator |
+| `lib/solvemod.py` | Modular linear system solver over rings |
+| `bin/main.ml` | OCaml main |
+| `prog` | Final protected binary MSVC10 |
+| `W4N4D13.pdf` | technical paper |
 
 ---
 
