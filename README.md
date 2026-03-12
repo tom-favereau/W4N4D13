@@ -35,10 +35,10 @@ gcc -E W4N4D13.c > out.c
 # 2) OCaml/CIL passes
 ./main.native out.c      out_flat.c -flatten
 ./main.native out_flat.c out_op.c   -opaque
-./main.native out_op.c   out_virt.c -virtualize
+./main.native out_op.c   out_virt.opcode -virtualize
 
 # 3) VM generation
-python3 generate_vm.py out_virt.c W4N4D13_final.c
+python3 generate_vm.py out_virt.opcode W4N4D13.c
 ```
 
 ## Dependencies
