@@ -1,9 +1,8 @@
-# W4N4D13 — Crackme (OCaml CIL / C)
-
+# W4N4D13
 
 ## About
 
-This repository contains a **crackme** built for the *Master SIRAV Malware/Reverse Engineering* course.
+This repository contains a **crackme** built for the Master SIRAV Malware/Reverse course.
 
 We encourage you to **try cracking it by yourself first** before looking at the source code or reading the technical paper.
 
