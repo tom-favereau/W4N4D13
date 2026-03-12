@@ -19,21 +19,18 @@ Good luck.
 | Path | Description |
 |---|---|
 | `W4N4D13.cpp` | Main source code |
-| `final.c` | Core routine (input to the protection/virtualization stage) |
-| `generate_vm.py` | VM + bytecode generator |
-| `lib/flatten.ml` | OCaml/CIL pass: control-flow flattening |
-| `lib/opaque.ml` | OCaml/CIL pass: opaque predicates (MBA) |
-| `lib/virtualize.ml` | OCaml/CIL pass: code virtualization |
+| `final.c` | Core routine (that is virtualized) |
+| `generate_vm.py` | VM + bytecode packer |
+| `lib/flatten.ml` | OCaml pass: control-flow flattening |
+| `lib/opaque.ml` | OCaml pass: opaque predicates (MBA) |
+| `lib/virtualize.ml` | OCaml pass: code virtualization |
 | `lib/mba.py` | MBA expression generator |
-| `lib/solvemod.py` | Modular solver used by the MBA tooling |
-| `bin/main.ml` | OCaml entry point for the passes |
-| `prog` | Final protected binary (MSVC10, Windows x86) |
+| `lib/solvemod.py` | Linear solver over ring used by the MBA tooling |
+| `bin/main.ml` | OCaml main |
+| `W4N4D13.exe` | Final binary (MSVC10, Windows x86) |
 | `W4N4D13.pdf` | Technical paper |
 
-## Build (pipeline overview)
 
-> The full pipeline is documented in the paper. This section only gives an overview.
-## Build (pipeline overview)
 
 ## Build (pipeline overview)
 
