@@ -8,12 +8,6 @@ We encourage you to **try cracking it by yourself first** before looking at the 
 
 Good luck.
 
-## What you’ll find (high level)
-
-- A protected Windows x86 program that expects an **8-character license key**
-- A build pipeline based on **C transformations (via OCaml/CIL passes)** and a custom **VM-based** protection layer
-- An accompanying **technical paper (PDF)** for readers who want full details
-
 ## Repository structure
 
 | Path | Description |
